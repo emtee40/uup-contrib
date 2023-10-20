@@ -79,6 +79,7 @@ $s['newlyAdded'] = 'Recently added builds';
 $s['dateAdded'] = 'Date added';
 $s['latestCanaryRelease'] = 'Latest Canary Channel build';
 $s['latestCanaryReleaseSub'] = 'Somewhat unstable builds with latest platform changes and early features.<br>Ideal for highly technical users.';
+$s['checkOutAddANewBuild'] = 'Haven\'t found a desired option? Check out the <i><a href="newbuild.php">Add a new build</a></i> page.';
 
 //newbuild.php
 $s['newBuild'] = 'New build';
