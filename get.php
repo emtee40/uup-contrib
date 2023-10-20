@@ -339,9 +339,9 @@ CONFIG;
     $zip->addFromString('ConvertConfig.ini', $convertConfig);
     $zip->addFromString('files/convert_config_linux', $convertConfigLinux);
     $zip->addFromString('files/convert_config_macos', $convertConfigLinux);
-    $zip->addFile($currDir.'/autodl_files/readme.unix.md', 'readme.unix.md');
-    $zip->addFile($currDir.'/autodl_files/converter_multi', 'files/converter_multi');
-    $zip->addFile($currDir.'/autodl_files/depends_win.ps1', 'files/depends_win.ps1');
+    $zip->addFile($currDir.'/contrib/autodl_files/readme.unix.md', 'readme.unix.md');
+    $zip->addFile($currDir.'/contrib/autodl_files/converter_multi', 'files/converter_multi');
+    $zip->addFile($currDir.'/contrib/autodl_files/depends_win.ps1', 'files/depends_win.ps1');
     $zip->close();
 
     if($virtualEditions) {
@@ -532,8 +532,8 @@ SCRIPT;
         $zip->addFromString('uup_download_windows.cmd', $cmdScript);
         $zip->addFromString('uup_download_linux.sh', $shellScript);
         $zip->addFromString('uup_download_macos.sh', $shellScript);
-        $zip->addFile($currDir.'/autodl_files/readme.unix.md', 'readme.unix.md');
-        $zip->addFile($currDir.'/autodl_files/depends_win.ps1', 'files/depends_win.ps1');
+        $zip->addFile($currDir.'/contrib/autodl_files/readme.unix.md', 'readme.unix.md');
+        $zip->addFile($currDir.'/contrib/autodl_files/depends_win.ps1', 'files/depends_win.ps1');
         $zip->close();
     } else {
         echo 'Failed to create archive.';
