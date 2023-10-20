@@ -174,8 +174,8 @@ $s['legalCopeHarder'] = 'By clicking the <i>Create download package</i> button y
 $s['legalCope1'] = 'Installation images created using the scripts provided by UUP dump are meant only for <b>evaluation purposes</b>';
 $s['legalCope2'] = 'The images and their deployments are <b>not supported</b> in any way by Microsoft Corporation';
 $s['legalCope3v2'] = '<b>The authors are not liable for any damages</b> caused by a misuse of the website';
-$s['win1122h2OrLater'] = 'Windows 11, version 22H2 or later';
-$s['requiresWindows102004'] = 'This build requires using Windows 10, version 2004 or later for the ISO to be properly created. Scripts for other platforms will output a broken ISO.';
+$s['win1122h2OrLaterv2'] = 'Windows is required to create the ISO image';
+$s['requiresWindows102004v2'] = 'You\'ll need to use a modern version of Windows such as Windows 10, version 2004 or Windows 11 to create an ISO image of this build. Other platforms won\'t work.';
 
 //get.php
 $s['listOfFilesFor'] = 'List of files for %s'; //List of files for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
