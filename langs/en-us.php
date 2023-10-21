@@ -55,6 +55,7 @@ $s['copyrightNew'] = '© %d UUP dump authors and contributors.';
 $s['selectLanguage'] = 'Please select your language';
 $s['uupDumpDesc'] = 'UUP dump lets you download Unified Update Platform files, like Windows Insider updates, directly from Windows Update.';
 $s['uupDumpDescSub'] = '%s on UUP dump. UUP dump lets you download Unified Update Platform files, like Windows Insider updates, directly from Windows Update.'; //Select language for Windows 11 Insider Preview 25188.1000 (rs_prerelease) amd64 on UUP dump. UUP dump lets you download Unified Update Platform files, like Windows Insider updates, directly from Windows Update.
+$s['themeButton'] = 'Theme';
 $s['selectTheme'] = 'Select theme';
 $s['themeAuto'] = 'Automatic';
 $s['themeLight'] = 'Light';
