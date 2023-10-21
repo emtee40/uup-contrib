@@ -246,6 +246,7 @@ $s['error_RATE_LIMITED'] = 'You are being rate limited. Please try again in a fe
 $s['error_UNSPECIFIED_VE'] = 'You have not selected any additional editions. If do not wish to create additional editions, please use the (Download using aria2 and convert) option.';
 $s['error_VE_UNAVAILABLE'] = 'Additional editions are not supported for this selection.';
 $s['error_INVALID_PAGE'] = 'Specified page is invalid';
+$s['error_WU_REQUEST_FAILED'] = 'A request to the Windows Update service has failed.';
 $s['errorNoMessage'] = 'Error message unavailable.';
 
 //Languages
