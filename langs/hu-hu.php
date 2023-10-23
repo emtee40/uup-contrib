@@ -97,7 +97,7 @@ $s['weFoundBuilds'] = 'A lekérdezés során <b>%d</b> építményeket találtuk
 $s['sortByDate'] = 'Az eredmények rendezése a hozzáadás dátuma szerint';
 $s['nextPage'] = 'Következő';
 $s['prevPage'] = 'Előző';
-$s['pageOf'] = '%d oldal %d-ből %d'; //1. oldal a 48-ból
+$s['pageOf'] = '%d oldal %d-ből'; //1. oldal a 48-ból
 
 //fetchupd.php
 $s['responseFromServer'] = 'Kiszolgáló válasza';
