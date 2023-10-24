@@ -55,6 +55,12 @@ $s['copyrightNew'] = '© %d UUP dump 作者和贡献者们。';
 $s['selectLanguage'] = '请选择你的语言';
 $s['uupDumpDesc'] = 'UUP dump 允许你直接从 Windows 更新下载统一更新平台（Unified Update Platform）的文件，例如 Windows 预览体验计划更新。';
 $s['uupDumpDescSub'] = '在 UUP dump 上%s。UUP dump 允许你直接从 Windows 更新下载统一更新平台（Unified Update Platform）的文件，例如 Windows 预览体验计划更新。'; //Select language for Windows 11 Insider Preview 25188.1000 (rs_prerelease) amd64 on UUP dump. UUP dump lets you download Unified Update Platform files, like Windows Insider updates, directly from Windows Update.
+$s['themeButton'] = '主题';
+$s['selectTheme'] = '选择主题';
+$s['themeAuto'] = '自动选择';
+$s['themeLight'] = '浅色主题';
+$s['themeDark'] = '深色主题';
+$s['themeLegacy'] = '旧版主题';
 
 //index.php
 $s['slogan'] = '轻松地从 Windows 更新服务器下载 UUP 文件。';
@@ -79,6 +85,7 @@ $s['newlyAdded'] = '新增内部版本';
 $s['dateAdded'] = '添加日期';
 $s['latestCanaryRelease'] = '最新 Canary 渠道版本';
 $s['latestCanaryReleaseSub'] = '具有最新平台更改和早期功能的内部版本，运行有些不稳定。<br>非常适合技术水平高的用户。';
+$s['checkOutAddANewBuild'] = '没有找到所需的选项？请查看<i><a href="newbuild.php">添加新内部版本</a></i>页面。';
 
 //newbuild.php
 $s['newBuild'] = '新增内部版本';
@@ -88,7 +95,7 @@ $s['newBuildNextText'] = '点击<i>下一步</i>按钮开始搜索指定的选�
 $s['newBuildUsing'] = '使用此页面';
 $s['newBuildUsingText'] = '此页面旨在供希望添加在网站上找不到的版本的高级用户使用。如果你想使用最常用的参数之一，请使用主页上的<i>快速选项</i>之一。';
 $s['optionsNotice'] = '选项注意';
-$s['optionsNoticeText'] = '此处找到的选项是配置基础 Windows 更新客户端向 Microsoft 服务器报告自身的方式。正确设置这些内容至关重要，否则你将会收到错误。';
+$s['optionsNoticeText'] = '此处找到的选项是配置基础 Windows 更新客户端向 Microsoft 服务器报告自身的方式。正确设置这些内容至关重要，否则你将会遇到错误。';
 
 //known.php
 $s['browseKnown'] = '浏览已知内部版本';
@@ -132,7 +139,7 @@ $s['chooseEdition'] = '选择版本';
 $s['chooseEditionDesc'] = '选择你想要的版本';
 $s['allEditions'] = '全版本';
 $s['selectEditionInfoText'] = '点击<i>下一步</i>按钮以打开所选内容的版本摘要页面。';
-$s['additionalEditionsInfo'] = '如果你需要可在右侧表格中找到的其他版本，请选择指定的所需版本，然后单击<i>下一步</i>按钮。在摘要页面上，你可以在相应的下载选项下选择所需的其他版本。';
+$s['additionalEditionsInfo'] = '如果你需要右侧表格中的<b>虚拟升级版本</b>，请在上方选择<b>所需版本</b>，然后单击<i>下一步</i>继续。<br>在摘要页上，选择“<b>创建虚拟升级版本</b>”选项。';
 $s['showHiddenEditions'] = '显示隐藏的版本（不推荐）';
 
 //download.php
@@ -148,6 +155,7 @@ $s['aria2Opt2'] = '下载并转换为 ISO 文件';
 $s['aria2Opt2Desc'] = '使用 aria2 轻松下载所选的 UUP 集，并转换它为 ISO 文件。';
 $s['aria2Opt3'] = '下载、添加虚拟升级版本并转换为 ISO 文件';
 $s['aria2Opt3Desc'] = '使用 aria2 轻松下载所选的 UUP 集，转换、创建虚拟升级版本并最终创建一个 ISO 镜像。';
+$s['aria2Opt4'] = '针对这些更新创建下载包';
 $s['jsRequiredToConf'] = '配置并使用此选项需要 JavaScript。';
 $s['selAdditionalEditions'] = '选择虚拟升级版本';
 $s['noAdditionalEditions'] = '你选择的版本没有虚拟升级版本可用。';
@@ -173,8 +181,9 @@ $s['legalCopeHarder'] = '点击<i>创建下载包</i>按钮即表示你同意以
 $s['legalCope1'] = '使用 UUP dump 提供的脚本创建的安装映像仅可用于<b>评估目的</b>';
 $s['legalCope2'] = 'Microsoft Corporation <b>不以任何方式支持</b>映像及其部署';
 $s['legalCope3v2'] = '<b>作者不会对</b>因滥用本网站所<b>导致的任何损害负责</b>';
-$s['win1122h2OrLater'] = 'Windows 11，版本 22H2 及以上';
 $s['requiresWindows102004'] = '此版本需要使用 Windows 10 版本 2004 或更高版本才能正确创建 ISO。其他平台的脚本将会输出一个损坏的 ISO 文件。';
+$s['win1122h2OrLaterv2'] = '需要 Windows 才能创建 ISO 映像';
+$s['requiresWindows102004v2'] = '你需要使用现代版本的 Windows（如 Windows 10 版本 2004 或 Windows 11）来创建此内部版本的 ISO 映像。在其他平台上将无法正常工作。';
 
 //get.php
 $s['listOfFilesFor'] = '%s 的文件列表'; //List of files for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
@@ -213,9 +222,9 @@ $s['error_UNSUPPORTED_API'] = '已安装的 API 版本与此版本的 UUP dump �
 $s['error_NO_FILEINFO_DIR'] = '<i>fileinfo</i> 目录不存在。';
 $s['error_NO_BUILDS_IN_FILEINFO'] = '在 <i>fileinfo</i> 数据库中不包含任何内部版本。';
 $s['error_SEARCH_NO_RESULTS'] = '找不到要执行查询的项目。';
-$s['error_UNKNOWN_ARCH'] = '未知的处理器体系结构。';
-$s['error_UNKNOWN_RING'] = '未知的通道。';
-$s['error_UNKNOWN_FLIGHT'] = '未知的推送版本。';
+$s['error_UNKNOWN_ARCH'] = '未知处理器体系结构。';
+$s['error_UNKNOWN_RING'] = '未知通道。';
+$s['error_UNKNOWN_FLIGHT'] = '未知推送版本。';
 $s['error_UNKNOWN_COMBINATION'] = '通道和环的组合不正确。只有快速环才支持向前跳过。';
 $s['error_ILLEGAL_BUILD'] = '指定的内部版本号小于 %d 或大于 %d。'; //Specified build number is less than 9841 or larger than 2147483646.
 $s['error_ILLEGAL_MINOR'] = '指定的次要/服务版本不正确。';
@@ -239,6 +248,7 @@ $s['error_RATE_LIMITED'] = '你受到了限制，请在几秒钟后重试。';
 $s['error_UNSPECIFIED_VE'] = '你尚未选择任何其他版本。如果不想创建其他版本，请选择<i>使用 aria2 下载并转换</i>选项。';
 $s['error_VE_UNAVAILABLE'] = '此选择不支持其他版本。';
 $s['error_INVALID_PAGE'] = '指定的页面无效';
+$s['error_WU_REQUEST_FAILED'] = 'Windows 更新服务请求失败。';
 $s['errorNoMessage'] = '错误消息不可用。';
 
 //Languages
