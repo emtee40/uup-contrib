@@ -91,7 +91,7 @@ $s['checkOutAddANewBuild'] = '没有找到所需的选项？请查看<i><a href=
 $s['newBuild'] = '新增内部版本';
 $s['addNewBuild'] = '添加新内部版本';
 $s['selectOptions'] = '选择选项';
-$s['newBuildNextText'] = '点击<i>下一步</i>按钮开始搜索指定的选项。';
+$s['newBuildNextText'] = '单击<i>下一步</i>按钮开始搜索指定的选项。';
 $s['newBuildUsing'] = '使用此页面';
 $s['newBuildUsingText'] = '此页面旨在供希望添加在网站上找不到的版本的高级用户使用。如果你想使用最常用的参数之一，请使用主页上的<i>快速选项</i>之一。';
 $s['optionsNotice'] = '选项注意';
@@ -109,7 +109,7 @@ $s['pageOf'] = '第 %d 页，共 %d 页'; //Page 1 of 48
 //fetchupd.php
 $s['responseFromServer'] = '来自服务器的响应';
 $s['foundUpdates'] = '已找到 %d 个更新'; //Found 1 update(s)
-$s['foundTheseUpdates'] = '找到了以下更新，点击所需更新的名称以继续。';
+$s['foundTheseUpdates'] = '找到了以下更新，单击所需更新的名称以继续。';
 $s['buildNumber'] = '内部版本号：%s'; //Build number: 18890.1000
 
 //selectlang.php
@@ -121,7 +121,7 @@ $s['selLangFiles'] = '文件';
 $s['allFiles'] = '全部文件';
 $s['wubOnly'] = '仅限 WindowsUpdateBox';
 $s['updateOnly'] = '仅更新';
-$s['selectLangInfoText1'] = '点击<i>下一步</i>按钮选择你要下载的版本。';
+$s['selectLangInfoText1'] = '单击<i>下一步</i>按钮选择你要下载的版本。';
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe 和累积更新可以在<i>全语言</i>中找到。';
 $s['allLangsWarn'] = '<i>全语言</i>选项不支持版本选择。';
 $s['clickNextToOpenFindFiles'] = '单击<i>下一步</i>按钮打开页面，该页面将允许你查找文件。';
@@ -138,7 +138,7 @@ $s['selectEditionFor'] = '选择 %s 的版本'; //Select edition for Windows 10 
 $s['chooseEdition'] = '选择版本';
 $s['chooseEditionDesc'] = '选择你想要的版本';
 $s['allEditions'] = '全版本';
-$s['selectEditionInfoText'] = '点击<i>下一步</i>按钮以打开所选内容的版本摘要页面。';
+$s['selectEditionInfoText'] = '单击<i>下一步</i>按钮以打开所选内容的版本摘要页面。';
 $s['additionalEditionsInfo'] = '如果你需要右侧表格中的<b>虚拟升级版本</b>，请在上方选择<b>所需版本</b>，然后单击<i>下一步</i>继续。<br>在摘要页上，选择“<b>创建虚拟升级版本</b>”选项。';
 $s['showHiddenEditions'] = '显示隐藏的版本（不推荐）';
 
@@ -177,11 +177,10 @@ $s['convOpt2'] = '当可用时集成更新（仅限 Windows 转换程序）';
 $s['convOpt3'] = '在集成更新后运行清理（仅限 Windows 转换程序）';
 $s['convOpt4'] = '集成 .NET Framework 3.5（仅限 Windows 转换程序）';
 $s['startDownload'] = '创建下载包';
-$s['legalCopeHarder'] = '点击<i>创建下载包</i>按钮即表示你同意以下内容：';
+$s['legalCopeHarder'] = '单击<i>创建下载包</i>按钮即表示你同意以下内容：';
 $s['legalCope1'] = '使用 UUP dump 提供的脚本创建的安装映像仅可用于<b>评估目的</b>';
 $s['legalCope2'] = 'Microsoft Corporation <b>不以任何方式支持</b>映像及其部署';
 $s['legalCope3v2'] = '<b>作者不会对</b>因滥用本网站所<b>导致的任何损害负责</b>';
-$s['requiresWindows102004'] = '此版本需要使用 Windows 10 版本 2004 或更高版本才能正确创建 ISO。其他平台的脚本将会输出一个损坏的 ISO 文件。';
 $s['win1122h2OrLaterv2'] = '需要 Windows 才能创建 ISO 映像';
 $s['requiresWindows102004v2'] = '你需要使用现代版本的 Windows（如 Windows 10 版本 2004 或 Windows 11）来创建此内部版本的 ISO 映像。在其他平台上将无法正常工作。';
 
@@ -195,9 +194,9 @@ $s['sha1File'] = 'SHA-1 文件校验';
 $s['sha1FileDesc'] = '你可以使用此信息快速验证文件是否已正确下载。';
 $s['aria2NoticeTitle'] = '使用 aria2 选项创建下载';
 $s['aria2NoticeText1'] = '使用 aria2 选项下载将创建一个需要你下载的压缩包，在下载的压缩包中包含实现所选任务所需的所有文件。';
-$s['aria2NoticeText2'] = '要开始下载过程，请使用适用于你的平台的脚本：';
+$s['aria2NoticeText2'] = '若要开始下载过程，请使用适用于你的平台的脚本：';
 $s['aria2NoticeText3'] = 'Aria2 是一个开源项目，你可以在这里找到它：%s。'; //Aria2 is an open source project. You can find it here: https://aria2.github.io/.
-$s['aria2NoticeText4'] = 'UUP 转换脚本（Windows 版本）已由 %s 创建。'; //UUP Conversion script (Windows version) has been created by abbodi1406.
+$s['aria2NoticeText4'] = 'UUP 转换脚本（Windows 版本）由 %s 创建。'; //UUP Conversion script (Windows version) has been created by abbodi1406.
 $s['aria2NoticeText5'] = 'UUP 转换脚本（Linux 版本、macOS 版本）是开源的，你可以在这里找到它：%s。'; //UUP Conversion script (Linux version, macOS version) is open source. You can find it here: https://github.com/uup-dump/converter.
 
 //findfiles.php
