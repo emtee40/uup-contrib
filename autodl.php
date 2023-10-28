@@ -128,7 +128,7 @@ class AutoDlConfig {
         if($this->buildNum <= 22557 || $isBlocked || $this->skipApps())
             return false;
 
-        $genPack = uupGetGenPacks($this->buildNum, $this->arch, $this->updateId);
+        $genPack = uupApiGetPacks($this->updateId);
 
         if(empty($genPack) || !isset($genPack['neutral']))
             return false;
