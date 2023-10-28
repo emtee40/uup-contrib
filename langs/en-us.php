@@ -212,8 +212,7 @@ $s['sizeOfShownFiles'] = 'Size of shown files: %s'; //Size of shown files: 2.86 
 $s['error'] = 'Error';
 $s['requestNotSuccessful'] = 'Request not successful';
 $s['anErrorHasOccurred'] = 'An error has occurred while attempting to process your request.';
-$s['arm64Warning2022h'] = 'This is an ARM64 build';
-$s['arm64Warning2022b'] = '<p>This build is only compatible with:</p><ul><li>Surface Pro X</li><li>Raspberry Pi</li><li>Apple Mac M1</li><li>other glorified mobile phones</li></ul><p>UUP dump authors <i>don\'t have a single one of these</i> and therefore <b>will provide absolutely no support</b>.</p>';
+$s['arm64Warning2023'] = '<b>This is an <a href="https://support.microsoft.com/en-us/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a> build.</b> UUP dump authors don\'t have a single device compatible with it and therefore <b>will provide absolutely no support</b>.';
 
 //Error messages
 $s['error_ERROR'] = 'Generic error.';
