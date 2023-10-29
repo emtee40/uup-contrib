@@ -212,7 +212,7 @@ $s['sizeOfShownFiles'] = '显示文件大小：%s'; //Size of shown files: 2.86 
 $s['error'] = '错误';
 $s['requestNotSuccessful'] = '请求未成功';
 $s['anErrorHasOccurred'] = '在尝试处理你的请求时发生错误。';
-$s['arm64Warning2023'] = '<b>这是一个 <a href="https://support.microsoft.com/en-us/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a> 内部版本。</b>UUP dump 的作者们没有与之兼容的单一设备，因此<b>绝对不会提供任何的支持</b>。';
+$s['arm64Warning2023'] = '<b>这是一个 <a href="https://support.microsoft.com/zh-cn/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a> 内部版本。</b>UUP dump 的作者们没有与之兼容的单一设备，因此<b>绝对不会提供任何的支持</b>。';
 
 //Error messages
 $s['error_ERROR'] = '一般错误。';

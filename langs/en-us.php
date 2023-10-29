@@ -6,7 +6,7 @@ Translation information:
 English language name: English (United States)
 Localized language name: English (United States)
 Language code: en-US
-Authors: whatever127, mspaintmsi, awuctl, eraseyourknees
+Authors: UUP dump authors and contributors
 */
 
 //Language information
