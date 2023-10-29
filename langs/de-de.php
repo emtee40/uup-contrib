@@ -246,7 +246,7 @@ $s['error_RATE_LIMITED'] = 'Die Geschwindigkeit Ihrer Anfragen ist begrenzt. Bit
 $s['error_UNSPECIFIED_VE'] = 'Sie haben keine zusätzliche Edition ausgewählt. Wenn Sie keine zusätzlichen Ausgaben erstellen möchten, verwenden Sie bitte die Option <i>Download mit aria2 und konvertieren</i>.';
 $s['error_VE_UNAVAILABLE'] = 'Zusätzliche Editionen sind für diese Auswahl nicht verfügbar.';
 $s['error_INVALID_PAGE'] = 'Angegebene Seite ist ungültig.';
-$s['error_WU_REQUEST_FAILED'] = 'Eine Anfrage an den Windows Update-Dienst ist fehlgeschlagen.'
+$s['error_WU_REQUEST_FAILED'] = 'Eine Anfrage an den Windows Update-Dienst ist fehlgeschlagen.';
 $s['errorNoMessage'] = 'Fehlermeldung ist nicht verfügbar.';
 
 //Languages
