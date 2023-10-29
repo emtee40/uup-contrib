@@ -83,6 +83,7 @@ $s['newlyAdded'] = '最近追加されたビルド';
 $s['dateAdded'] = '追加された日付';
 $s['latestCanaryRelease'] = '最新のCanary チャネル';
 $s['latestCanaryReleaseSub'] = '最新のプラットフォームの変更と初期の機能を含む、不安定なビルド。<br>上級ユーザーに最適です。';
+$s['checkOutAddANewBuild'] = '目的のオプションがない場合は、<i><a href="newbuild.php">新しいビルドを追加</a></i>ページをご覧ください。';
 
 //newbuild.php
 $s['newBuild'] = '新しいビルド';
