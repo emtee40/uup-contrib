@@ -301,7 +301,7 @@ $s['channel_releasepreview'] = 'リリースプレビューチャネル';
 $s['channel_retail'] = '市販';
 
 //Editions
-$s['edition_APP'] = 'Microsoft StoreのInboxアプリ';
+$s['edition_APP'] = 'Microsoft Storeのプリインストール(Inbox)アプリ';
 $s['edition_APP_MOMENT'] = 'Microsoft StoreのMomentアプリ';
 $s['edition_FOD'] = 'オンデマンド機能';
 $s['edition_CLOUD'] = 'Windows S';
