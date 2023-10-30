@@ -212,7 +212,7 @@ $s['sizeOfShownFiles'] = '表示したファイルの合計サイズ: %s'; //Siz
 $s['error'] = 'Error';
 $s['requestNotSuccessful'] = 'リクエストは成功しませんでした';
 $s['anErrorHasOccurred'] = 'リクエストの処理中にエラーが発生しました。';
-$s['arm64Warning2023'] = '<b>これは<a href="https://support.microsoft.com/en-us/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a>ビルド。</b> UUP dumpの開発者たちは、互換性のあるデバイスをひとつも持っておらず、<b>まったくサポートを提供できません</b>。';
+$s['arm64Warning2023'] = '<b>これは<a href="https://support.microsoft.com/ja-jp/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a>ビルド。</b> UUP dumpの開発者たちは、互換性のあるデバイスをひとつも持っておらず、<b>まったくサポートを提供できません</b>。';
 
 //Error messages
 $s['error_ERROR'] = '一般エラー.';
