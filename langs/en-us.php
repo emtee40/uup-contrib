@@ -250,6 +250,7 @@ $s['error_WU_REQUEST_FAILED'] = 'A request to the Windows Update service has fai
 $s['errorNoMessage'] = 'Error message unavailable.';
 
 //Languages
+$s['lang_neutral'] = 'Any Language';
 $s['lang_ar-sa'] = 'Arabic (Saudi Arabia)';
 $s['lang_bg-bg'] = 'Bulgarian';
 $s['lang_cs-cz'] = 'Czech';
