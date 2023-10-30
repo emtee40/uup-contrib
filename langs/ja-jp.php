@@ -250,6 +250,7 @@ $s['error_WU_REQUEST_FAILED'] = 'Windows Updateサービスへのリクエスト
 $s['errorNoMessage'] = 'エラーメッセージは利用できません.';
 
 //Languages
+$s['lang_neutral'] = '言語中立';
 $s['lang_ar-sa'] = 'アラビア語（サウジアラビア）';
 $s['lang_bg-bg'] = 'ブルガリア語';
 $s['lang_cs-cz'] = 'チェコ語';
