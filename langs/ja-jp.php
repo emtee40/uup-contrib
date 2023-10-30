@@ -44,12 +44,14 @@ $s['unknown'] = '不明';
 $s['home'] = 'ホーム';
 $s['downloads'] = 'ダウンロード';
 $s['lightMode'] = 'ライトモード';
+$s['faq'] = 'よくある質問 (FAQ)';
 $s['darkMode'] = 'ダークモード';
 $s['sourceCode'] = 'ソースコード';
 $s['menu'] = 'メニュー';
 $s['websiteDesc'] = 'Windows Update サーバからUUPファイルを簡単にダウンロードできます。このプロジェクトは米国Microsoft Corporationとは一切関係ありません。';
 $s['notAffiliated'] = 'このプロジェクトは米国Microsoft Corporationとは一切関係ありません。Microsoft、Windowsは、米国Microsoft Corporationの米国およびその他の国における登録商標または商標です。';
 $s['copyright'] = '© %d %s と貢献者たち。'; //© 2019 whatever127 and contributors.
+$s['copyrightNew'] = '© %d UUP dumpの開発者たちと貢献者たち。';
 $s['selectLanguage'] = '言語を選択';
 $s['uupDumpDesc'] = 'UUP dumpを使用すると、Windows InsiderアップデートなどのUnified Update PlatformファイルをWindows Updateから直接ダウンロードできます。';
 $s['uupDumpDescSub'] = 'UUP dumpで%s. UUP dumpを使用すると、Windows InsiderアップデートなどのUnified Update PlatformファイルをWindows Updateから直接ダウンロードできます。'; //Select language for Windows 11 Insider Preview 25188.1000 (rs_prerelease) amd64 on UUP dump. UUP dump lets you download Unified Update Platform files, like Windows Insider updates, directly from Windows Update.
@@ -104,19 +106,6 @@ $s['nextPage'] = '次へ';
 $s['prevPage'] = '前へ';
 $s['pageOf'] = '%d/%d ページ'; //Page 1 of 48
 
-//latest.php
-$s['latestFetchLatest'] = '最新ビルドを取得';
-$s['latestTestingOnly'] = 'テスト目的のみ';
-$s['latestTestingOnlyWarn'] = '<b>このページはテスト目的でのみ提供されています。</b>このページで取得され、バックエンドサーバで処理されなかったビルドは、代替えのパックを使用して提供されるため、不完全な結果になる可能性があります。既知のビルドをダウンロードする場合は、既知のビルドページを使用してください。';
-$s['latestDoYouWantKnown'] = '既知のビルドを参照して続行しますか？';
-$s['chooseOptions'] = 'パラメータを選択';
-$s['buildOfPretendedClient'] = 'Windows Updateの疑似的なクライアントビルド番号';
-$s['editionOfPretendedClient'] = 'システムの疑似的なエディション';
-$s['skipAheadLabel'] = 'フライティングをスキップ';
-$s['skipAheadOption'] = '目の前のフライティングをスキップします (Insider Fast のみ)';
-$s['fetchUpdates'] = '更新を取得';
-$s['fetchUpdatesInfo'] = '<i>更新プログラムの取得</i>ボタンをクリックして、リクエストをWindows Updateサーバーに送信します。';
-
 //fetchupd.php
 $s['responseFromServer'] = 'サーバレスポンス結果';
 $s['foundUpdates'] = '%d件 更新が見つかりました'; //Found 1 update(s)
@@ -141,6 +130,8 @@ $s['browseFiles'] = 'ファイルを参照';
 $s['browseFilesDesc'] = '選択したビルドのファイルをすばやく参照する';
 $s['searchFiles'] = 'ファイルを検索';
 $s['toSearchForCUUseQuery'] = '累積的な更新プログラムを検索するには、<i>%s</i> 検索クエリを使用します。'; //To search for Cumulative Updates use the <i>Windows10 KB</i> search query.
+$s['updateNotProcessed'] = 'UUP dumpはまだこの更新のメタデータを処理していません、これは%d分に1回自動的に発生します。 それまでは、更新のファイルを参照することしかできません。'; //UUP dump hasn't processed this update's metadata yet - this happens automatically once every 30 minutes. You can only browse the update's file list until then.
+$s['updateIsBlocked'] = 'この更新には、ISOの作成を妨げる既知の問題があります。 それまでは、手動で更新のファイルを参照することしかできません。';
 
 //selectedition.php
 $s['selectEditionFor'] = '%s のエディションを選択'; //Select edition for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64, English (United States)
@@ -149,6 +140,7 @@ $s['chooseEditionDesc'] = '利用したいエディションを選択してく�
 $s['allEditions'] = 'すべてのエディション';
 $s['selectEditionInfoText'] = '<i>次へ</i>ボタンをクリックして概要ページを開きます。';
 $s['additionalEditionsInfo'] = '<b>追加エディション</b>が必要な場合右の表を参照してください。記載されてる<b>必要なエディション</b>を選択し<i>次へ</i>をクリックしてください。<br>そして概要ページで<b>追加エディションの選択</b>を選択してください。';
+$s['showHiddenEditions'] = '隠しエディションを表示 (推奨しません)';
 
 //download.php
 $s['summary'] = '概要';
@@ -163,6 +155,7 @@ $s['aria2Opt2'] = 'ダウンロードしてISOに変換';
 $s['aria2Opt2Desc'] = '選択したUUPセットを aria2 で簡単にダウンロードした後にISOに変換できます。';
 $s['aria2Opt3'] = 'ダウンロード、エディションの追加、ISOへの変換';
 $s['aria2Opt3Desc'] = '選択したUUPセットを aria2 で簡単にダウンロードし、追加のエディションを作成した後にISOイメージに変換します。';
+$s['aria2Opt4'] = '更新のダウンロードパッケージを作成';
 $s['jsRequiredToConf'] = 'このオプションを設定して使用するには、JavaScriptが必要です。';
 $s['selAdditionalEditions'] = '追加エディションの選択';
 $s['noAdditionalEditions'] = '選択したエディションで使用できる追加エディションはありません。';
@@ -213,14 +206,12 @@ $s['fileRenamingScriptGenW'] = '名前変更スクリプトの生成 (Windows)';
 $s['fileRenamingScriptGenL'] = '名前変更スクリプトを生成(Linux、macOS)';
 $s['searchForFiles'] = 'ファイルを検索...';
 $s['weFoundFiles'] = '<b>%d</b>個 のファイルが見つかりました。'; //We have found <b>692</b> files for your query.
+$s['sizeOfShownFiles'] = '表示したファイルの合計サイズ: %s'; //Size of shown files: 2.86 GiB
 
 //Error pages
 $s['error'] = 'Error';
 $s['requestNotSuccessful'] = 'リクエストは成功しませんでした';
 $s['anErrorHasOccurred'] = 'リクエストの処理中にエラーが発生しました。';
-$s['generatedPackNotAvailable'] = '生成されたパックは使用できません';
-$s['generatedPackNotAvailableDesc'] = 'この更新プログラムには、使用可能な言語、エディション、およびファイルに関する完全な情報を提供するパックが生成されていません。代替えのパックが使用され、正しい情報が提供されない場合があります。そのためダウンロードに失敗した場合は、パックが使用可能になるまでしばらくお待ちください。';
-$s['arm64Warning'] = 'これは<b>ARM64</b>ビルドで、<b>一般的なIntel/AMDプロセッサとの互換性はありません</b>。<br>対象のデバイスに<b>ARM64</b>プロセッサが搭載されている事を理解していて<b>AMD64</b>と混同していない場合安全にインストール出来ます。';
 $s['arm64Warning2023'] = '<b>これは<a href="https://support.microsoft.com/en-us/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a>ビルド。</b> UUP dumpの開発者たちは、互換性のあるデバイスをひとつも持っておらず、<b>まったくサポートを提供できません</b>。';
 
 //Error messages
