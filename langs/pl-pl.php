@@ -84,8 +84,8 @@ $s['fetchLatestSub'] = 'Uzyskaj informacje o najnowszej kompilacji z serwerów W
 $s['newlyAdded'] = 'Nowo dodane kompilacje';
 $s['dateAdded'] = 'Data dodania';
 $s['latestCanaryRelease'] = 'Najnowsza kompilacja kanału Canary';
-$s['latestCanaryReleaseSub'] = 'Poniekąd niestabilne kompilacje z najnowszymi zmianami platformy i wczesnymi funkcjami.<br>Idealne dla użytkowników o wysokich kompetencjach technicznych.';
-$s['checkOutAddANewBuild'] = 'Brak interesującej Cię opcji? Sprawdź stronę <i><a href="newbuild.php">Dodaj nową kompilację</a></i>.';
+$s['latestCanaryReleaseSub'] = 'Poniekąd niestabilne kompilacje z najnowszymi zmianami platformy i wczesnymi funkcjami.<br>Idealne dla wysoce kompetentnych technicznie użytkowników.';
+$s['checkOutAddANewBuild'] = 'Brakuje interesującej Cię opcji? Sprawdź stronę <i><a href="newbuild.php">Dodaj nową kompilację</a></i>.';
 
 //newbuild.php
 $s['newBuild'] = 'Nowa kompilacja';
@@ -101,7 +101,7 @@ $s['optionsNoticeText'] = 'Opcje dostępne tutaj konfigurują sposób w jaki kli
 $s['browseKnown'] = 'Przeglądaj znane kompilacje';
 $s['chooseBuild'] = 'Wybierz kompilację';
 $s['weFoundBuilds'] = 'Znaleziono <b>%d</b> kompilacji dla Twojego zapytania.'; //<b>692</b> builds were found for your query.
-$s['sortByDate'] = 'Sortuj rezultaty po dacie dodania';
+$s['sortByDate'] = 'Sortuj wyniki po dacie dodania';
 $s['nextPage'] = 'Następna';
 $s['prevPage'] = 'Poprzednia';
 $s['pageOf'] = 'Strona %d z %d'; //Page 1 of 48
@@ -155,7 +155,7 @@ $s['aria2Opt2'] = 'Pobierz i przekonwertuj na obraz ISO';
 $s['aria2Opt2Desc'] = 'Łatwo pobierz wybrany zestaw UUP przy użyciu programu aria2 i przekonwertuj na obraz ISO.';
 $s['aria2Opt3'] = 'Pobierz, dodaj dodatkowe edycje i przekonwertuj na obraz ISO';
 $s['aria2Opt3Desc'] = 'Łatwo pobierz wybrany zestaw UUP przy użyciu programu aria2, stwórz dodatkowe edycje a następnie przekonwertuj na obraz ISO.';
-$s['aria2Opt4'] = 'Utwórz paczkę pobierającą dla tych aktualizacji';
+$s['aria2Opt4'] = 'Utwórz pakiet pobierający dla tych aktualizacji';
 $s['jsRequiredToConf'] = 'Obsługa JavaScript jest wymagana, aby móc skonfigurować i użyć tej opcji.';
 $s['selAdditionalEditions'] = 'Wybierz dodatkowe edycje';
 $s['noAdditionalEditions'] = 'Brak dodatkowych edycji dostępnych dla tego wyboru.';
@@ -176,8 +176,8 @@ $s['convOpt1'] = 'Użyj kompresji z użyciem bloku ciągłego (ESD)';
 $s['convOpt2'] = 'Zintegruj aktualizacje jeśli dostępne (tylko konwerter Windows)';
 $s['convOpt3'] = 'Uruchom oczyszczanie komponentów (tylko konwerter Windows)';
 $s['convOpt4'] = 'Zintegruj .NET Framework 3.5 (tylko konwerter Windows)';
-$s['startDownload'] = 'Utwórz paczkę pobierającą';
-$s['legalCopeHarder'] = 'Poprzez kliknięcie przycisku <i>Utwórz paczkę pobierającą</i> zgadzasz się z następującym:';
+$s['startDownload'] = 'Utwórz pakiet pobierający';
+$s['legalCopeHarder'] = 'Poprzez kliknięcie przycisku <i>Utwórz pakiet pobierający</i> zgadzasz się z następującym:';
 $s['legalCope1'] = 'Obrazy instalacyjne stworzone przez skrypty udostępniane przez UUP dump przeznaczone są wyłącznie do <b>celów ewaluacyjnych</b>';
 $s['legalCope2'] = 'Obrazy te oraz ich wdrożenia <b>nie są wspierane</b> w żaden sposób przez Microsoft Corporation';
 $s['legalCope3v2'] = '<b>Autorzy nie ponoszą odpowiedzialności za jakiekolwiek szkody</b> wynikłe z nieprawidłowego użytkowania strony.';
