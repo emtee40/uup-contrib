@@ -250,6 +250,7 @@ $s['error_WU_REQUEST_FAILED'] = 'Windows 更新服务请求失败。';
 $s['errorNoMessage'] = '错误消息不可用。';
 
 //Languages
+$s['lang_neutral'] = '任何语言';
 $s['lang_ar-sa'] = '阿拉伯语（沙特阿拉伯）';
 $s['lang_bg-bg'] = '保加利亚语';
 $s['lang_cs-cz'] = '捷克语';
