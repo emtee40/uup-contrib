@@ -182,7 +182,7 @@ $s['legalCope1'] = 'Obrazy instalacyjne stworzone przez skrypty udostępniane pr
 $s['legalCope2'] = 'Obrazy te oraz ich wdrożenia <b>nie są wspierane</b> w żaden sposób przez Microsoft Corporation';
 $s['legalCope3v2'] = '<b>Autorzy nie ponoszą odpowiedzialności za jakiekolwiek szkody</b> wynikłe z nieprawidłowego użytkowania strony.';
 $s['win1122h2OrLaterv2'] = 'System Windows jest wymagany w celu utworzenia obrazu ISO';
-$s['requiresWindows102004v2'] = 'W celu utworzenia obrazu ISO tej kompilacji potrzebna będzie nowoczesna wersja systemu Windows, taka jak Windows 10, versja 2004 lub Windows 11. Na pozostałych platformach proces ten nie powiedzie się.';
+$s['requiresWindows102004v2'] = 'W celu utworzenia obrazu ISO tej kompilacji potrzebna będzie nowoczesna wersja systemu Windows, taka jak Windows 10, wersja 2004 lub Windows 11. Na pozostałych platformach proces ten nie powiedzie się.';
 
 //get.php
 $s['listOfFilesFor'] = 'Lista plików dla %s'; //List of files for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
