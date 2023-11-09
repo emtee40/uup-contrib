@@ -15,16 +15,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-function sortBySize($a, $b) {
-    global $files;
-
-    if ($files[$a]['size'] == $files[$b]['size']) {
-        return 0;
-    }
-
-    return ($files[$a]['size'] < $files[$b]['size']) ? -1 : 1;
-}
-
 //Create aria2 download package with conversion script
 function createUupConvertPackage(
     $url,
