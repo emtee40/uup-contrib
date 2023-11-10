@@ -217,8 +217,8 @@ $s['arm64Warning2023'] = '<b>这是一个 <a href="https://support.microsoft.com
 //Error messages
 $s['error_ERROR'] = '一般错误。';
 $s['error_UNSUPPORTED_API'] = '已安装的 API 版本与此版本的 UUP dump 不兼容。';
-$s['error_NO_FILEINFO_DIR'] = '<i>fileinfo</i> 目录不存在。';
-$s['error_NO_BUILDS_IN_FILEINFO'] = '在 <i>fileinfo</i> 数据库中不包含任何内部版本。';
+$s['error_NO_FILEINFO_DIR'] = 'fileinfo 目录不存在。';
+$s['error_NO_BUILDS_IN_FILEINFO'] = '在 fileinfo 数据库中不包含任何内部版本。';
 $s['error_SEARCH_NO_RESULTS'] = '找不到要执行查询的项目。';
 $s['error_UNKNOWN_ARCH'] = '未知处理器体系结构。';
 $s['error_UNKNOWN_RING'] = '未知通道。';

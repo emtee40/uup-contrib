@@ -125,7 +125,7 @@ $s['selectLangInfoText1'] = '<i>次へ</i>ボタンをクリックして、目�
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exeおよび累積的な更新プログラムは、<i>すべての言語</i>で提供されています。';
 $s['allLangsWarn'] = '<i>すべての言語</i>オプションでは、エディションの選択はサポートされていません。';
 $s['clickNextToOpenFindFiles'] = '<i>次へ</i>ボタンをクリックして、ファイルを検索できるページを開きます。';
-$s['noLangsAvailable'] = 'このビルドで使用できる言語はありません。<br>このビルドはISOイメージに変換できません。<br>詳細は <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md">FAQ</a> を参照してください。';
+$s['noLangsAvailable'] = 'このビルドで使用できる言語はありません。<br>このビルドはISOイメージに変換できません。<br>詳細は FAQ を参照してください。';
 $s['browseFiles'] = 'ファイルを参照';
 $s['browseFilesDesc'] = '選択したビルドのファイルをすばやく参照する';
 $s['searchFiles'] = 'ファイルを検索';
@@ -217,8 +217,8 @@ $s['arm64Warning2023'] = '<b>これは<a href="https://support.microsoft.com/ja-
 //Error messages
 $s['error_ERROR'] = '一般エラー.';
 $s['error_UNSUPPORTED_API'] = 'インストールされているAPIのバージョンは、このバージョンのUUP dumpと互換性がありません。';
-$s['error_NO_FILEINFO_DIR'] = '<i>fileinfo</i>ディレクトリが存在しません。';
-$s['error_NO_BUILDS_IN_FILEINFO'] = '<i>fileinfo</i>データベースにビルドが含まれていません。';
+$s['error_NO_FILEINFO_DIR'] = 'fileinfoディレクトリが存在しません。';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'fileinfoデータベースにビルドが含まれていません。';
 $s['error_SEARCH_NO_RESULTS'] = '実行されたクエリのアイテムが見つかりませんでした。';
 $s['error_UNKNOWN_ARCH'] = '不明なプロセッサアーキテクチャです。';
 $s['error_UNKNOWN_RING'] = '不明なチャネルです。';

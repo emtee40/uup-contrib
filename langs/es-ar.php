@@ -111,7 +111,7 @@ $s['selectLangInfoText1'] = 'Cliquea <i>Siguiente</i> para seleccionar la edici�
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe y las actualizaciones acumulativas pueden encontrarse en la opción <i>Todos los idiomas</i>.';
 $s['allLangsWarn'] = 'La opción <i>Todos los idiomas</i> no soporta selección de edición.';
 $s['clickNextToOpenFindFiles'] = 'Cliquea <i>Siguiente</i> para abrir la página que te permitirá buscar los archivos.';
-$s['noLangsAvailable'] = 'No hay idiomas disponibles para esta compilación.<br>No se puede crear un ISO con esta compilación.<br>Revisa las <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md">FAQ</a> para obtener más detalles.';
+$s['noLangsAvailable'] = 'No hay idiomas disponibles para esta compilación.<br>No se puede crear un ISO con esta compilación.<br>Revisa las FAQ para obtener más detalles.';
 $s['browseFiles'] = 'Examinar archivos';
 $s['browseFilesDesc'] = 'Examina rápidamente los archivos en la compilación seleccionada';
 $s['searchFiles'] = 'Buscar archivos';
@@ -195,8 +195,8 @@ $s['arm64Warning'] = 'Esta es una compilación para <b>ARM64</b>, que <b>no es c
 //Error messages
 $s['error_ERROR'] = 'Error genérico.';
 $s['error_UNSUPPORTED_API'] = 'La versión de la API instalada no es compatible con esta versión de UUP dump.';
-$s['error_NO_FILEINFO_DIR'] = 'El directorio <i>fileinfo</i> no existe.';
-$s['error_NO_BUILDS_IN_FILEINFO'] = 'La base de datos <i>fileinfo</i> no contiene ninguna compilación.';
+$s['error_NO_FILEINFO_DIR'] = 'El directorio fileinfo no existe.';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'La base de datos fileinfo no contiene ninguna compilación.';
 $s['error_SEARCH_NO_RESULTS'] = 'No se encontraron elementos para la consulta realizada.';
 $s['error_UNKNOWN_ARCH'] = 'Arquitectura desconocida del procesador.';
 $s['error_UNKNOWN_RING'] = 'Anillo desconocido.';

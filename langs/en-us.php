@@ -217,8 +217,8 @@ $s['arm64Warning2023'] = '<b>This is an <a href="https://support.microsoft.com/e
 //Error messages
 $s['error_ERROR'] = 'Generic error.';
 $s['error_UNSUPPORTED_API'] = 'Installed API version is not compatible with this version of UUP dump.';
-$s['error_NO_FILEINFO_DIR'] = 'The (fileinfo) directory does not exist.';
-$s['error_NO_BUILDS_IN_FILEINFO'] = 'The (fileinfo) database does not contain any build.';
+$s['error_NO_FILEINFO_DIR'] = 'The fileinfo directory does not exist.';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'The fileinfo database does not contain any build.';
 $s['error_SEARCH_NO_RESULTS'] = 'No items found for the performed query.';
 $s['error_UNKNOWN_ARCH'] = 'Unknown processor architecture.';
 $s['error_UNKNOWN_RING'] = 'Unknown channel.';

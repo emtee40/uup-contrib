@@ -125,7 +125,7 @@ $s['selectLangInfoText1'] = 'Kliknij przycisk <i>Dalej</i> w celu przejścia do 
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe i aktualizacje kumulacyjne mogą zostać znalezione w opcji języka <i>Wszystkie języki</i>.';
 $s['allLangsWarn'] = 'Opcja <i>Wszystkie języki</i> nie obsługuje wyboru edycji.';
 $s['clickNextToOpenFindFiles'] = 'Kliknij przycisk <i>Dalej</i> aby otworzyć stronę umożliwiającą wyszukiwanie plików.';
-$s['noLangsAvailable'] = 'Dla tej kompilacji nie ma dostępnych żadnych języków.<br>Ta kompilacja nie może zostać przekonwertowana na obraz ISO.<br>Odwiedź <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md">często zadawane pytania</a> w celu uzyskania szczegółów.';
+$s['noLangsAvailable'] = 'Dla tej kompilacji nie ma dostępnych żadnych języków.<br>Ta kompilacja nie może zostać przekonwertowana na obraz ISO.<br>Odwiedź często zadawane pytania w celu uzyskania szczegółów.';
 $s['browseFiles'] = 'Przeglądaj pliki';
 $s['browseFilesDesc'] = 'Szybko przejrzyj pliki w wybranej kompilacji';
 $s['searchFiles'] = 'Przeszukaj pliki';
@@ -217,8 +217,8 @@ $s['arm64Warning2023'] = '<b>To jest kompilacja <a href="https://support.microso
 //Error messages
 $s['error_ERROR'] = 'Błąd ogólny.';
 $s['error_UNSUPPORTED_API'] = 'Zainstalowana wersja API nie jest kompatybilna z tą wersją UUP dump.';
-$s['error_NO_FILEINFO_DIR'] = 'Folder <i>fileinfo</i> nie istnieje.';
-$s['error_NO_BUILDS_IN_FILEINFO'] = 'Baza <i>fileinfo</i> nie posiada żadnej kompilacji.';
+$s['error_NO_FILEINFO_DIR'] = 'Folder fileinfo nie istnieje.';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'Baza fileinfo nie posiada żadnej kompilacji.';
 $s['error_SEARCH_NO_RESULTS'] = 'Brak elementów dla podanego zapytania.';
 $s['error_UNKNOWN_ARCH'] = 'Nieznana architektura procesora.';
 $s['error_UNKNOWN_RING'] = 'Nieznany pierścień.';

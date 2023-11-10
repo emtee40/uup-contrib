@@ -212,8 +212,8 @@ $s['arm64Warning2022b'] = '<p>Esta versão é compatível apenas com:</p><ul><li
 //Error messages
 $s['error_ERROR'] = 'Erro genérico.';
 $s['error_UNSUPPORTED_API'] = 'A versão da API instalada não é compatível com esta versão do UUP dump.';
-$s['error_NO_FILEINFO_DIR'] = 'O diretório (fileinfo) não existe.';
-$s['error_NO_BUILDS_IN_FILEINFO'] = 'A base de dados (fileinfo) não contém nenhuma compilação.';
+$s['error_NO_FILEINFO_DIR'] = 'O diretório fileinfo não existe.';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'A base de dados fileinfo não contém nenhuma compilação.';
 $s['error_SEARCH_NO_RESULTS'] = 'Nenhum item encontrado para a consulta realizada.';
 $s['error_UNKNOWN_ARCH'] = 'Arquitetura do processador desconhecido.';
 $s['error_UNKNOWN_RING'] = 'Canal desconhecido.';

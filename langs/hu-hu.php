@@ -210,8 +210,8 @@ $s['arm64Warning2022b'] = '<p>Ez a build csak a következőkkel kompatibilis:</p
 //Error messages
 $s['error_ERROR'] = 'Általános hiba.';
 $s['error_UNSUPPORTED_API'] = 'A telepített API verziója nem kompatibilis az UUP dump ezen verziójával.';
-$s['error_NO_FILEINFO_DIR'] = 'A <i>fileinfo</i> könyvtár nem létezik.';
-$s['error_NO_BUILDS_IN_FILEINFO'] = 'A <i>fileinfo</i> adatbázis nem tartalmaz építményt.';
+$s['error_NO_FILEINFO_DIR'] = 'A fileinfo könyvtár nem létezik.';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'A fileinfo adatbázis nem tartalmaz építményt.';
 $s['error_SEARCH_NO_RESULTS'] = 'Nem található elem a végrehajtott lekérdezéshez.';
 $s['error_UNKNOWN_ARCH'] = 'Ismeretlen processzor-architektúra.';
 $s['error_UNKNOWN_RING'] = 'Ismeretlen gyűrű.';
