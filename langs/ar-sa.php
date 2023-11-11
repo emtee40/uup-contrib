@@ -26,7 +26,6 @@ $s['edition'] = 'النسخة';
 $s['seachForBuilds'] = '...البحث في الإصدارات';
 $s['no'] = 'لا';
 $s['yes'] = 'نعم';
-$s['yesRecommended'] = 'نعم - مستحسن';
 $s['next'] = 'التالي';
 $s['ok'] = 'تم';
 $s['cancel'] = 'إلغاء';
@@ -43,14 +42,10 @@ $s['unknown'] = 'غير معروف';
 //global
 $s['home'] = 'الصفحة الرئيسية';
 $s['downloads'] = 'التنزيلات';
-$s['lightMode'] = 'مظهر فاتح';
 $s['faq'] = 'الأسئلة الشائعة';
-$s['darkMode'] = 'مظهر داكن';
 $s['sourceCode'] = 'Source code';
 $s['menu'] = 'القائمة';
-$s['websiteDesc'] = 'Windows Update تحميل إصدارات وتحديثات ويندوز بكل سهولة من سيرفرات';
 $s['notAffiliated'] = 'This project is not affiliated with Microsoft Corporation. Windows is a registered trademark of Microsoft Corporation.';
-$s['copyright'] = '© %d %s and contributors.'; //© 2019 whatever127 and contributors.
 $s['copyrightNew'] = '© %d UUP dump authors and contributors.';
 $s['selectLanguage'] = 'اختر لغة الموقع';
 $s['uupDumpDesc'] = 'Windows Update مثل إصدارات معاينة ويندوز مباشرة من UUP هذا الموقع يتيح تنزيل ملفات منصة التحديث الموحدة';
@@ -76,11 +71,6 @@ $s['latestBetaRelease'] = 'Beta أحدث إصدار من قناة';
 $s['latestBetaReleaseSub'] = 'إصدارات قناة التجريب تحتوي ميزات جديدة أكثر موثوقية<br>يناسب المستخدم المتحمس';
 $s['latestRPRelease'] = 'Preview أحدث إصدار من قناة';
 $s['latestRPReleaseSub'] = 'معاينة الإصدارات الرسمية قبل طرحها للعموم مع الميزات المعتمدة';
-$s['advOptions'] = 'خيارات متقدمة';
-$s['browseBuilds'] = 'تصفح الإصدارات المعروفة';
-$s['browseBuildsSub'] = 'تنزيل إصدار موجود مسبقاً في قاعدة البيانات';
-$s['fetchLatest'] = 'اكتشاف أحدث الإصدارات';
-$s['fetchLatestSub'] = 'Windows Update البحث عن معلومات أحدث الإصدارات من سيرفرات';
 $s['newlyAdded'] = 'الإصدارات المضافة حديثاً';
 $s['dateAdded'] = 'تاريخ الإضافة';
 $s['latestCanaryRelease'] = 'Canary أحدث إصدار من قناة';
@@ -88,12 +78,8 @@ $s['latestCanaryReleaseSub'] = 'إصدارات قناة البناء الخام 
 $s['checkOutAddANewBuild'] = 'لم تعثر على الإصدار المرغوب؟ تفقد صفحة:   <i><a href="newbuild.php">اكتشاف الإصدارات</a></i>';
 
 //newbuild.php
-$s['newBuild'] = 'اكتشاف الإصدارات';
 $s['addNewBuild'] = 'اكتشاف إصدار جديد';
-$s['selectOptions'] = 'حدد الخيارات';
 $s['newBuildNextText'] = 'اضغط على زر التالي لبدء البحث بالخيارات المحددة';
-$s['newBuildUsing'] = 'وظيفة هذه الصفحة';
-$s['newBuildUsingText'] = 'هذه الصفحة مخصصة للمستخدم المتقدم والذي يرغب بإضافة إصدارات غير متوفرة حالياً بالموقع. إذا أردت البحث باستخدام الخيارات الأكثر شيوعاً، استخدم الخيارات السريعة من الصفحة الرئيسية';
 $s['optionsNotice'] = 'تنبيه حول الخيارات';
 $s['optionsNoticeText'] = 'هذه الخيارات تحدد كيف يتم تكوين معلومات وكيل تحديث ويندوز التي ترسل لسيرفرات مايكروسوفت. من المهم تحديد الخيارات بدقة للحصول على نتائج';
 
@@ -102,12 +88,8 @@ $s['browseKnown'] = 'الإصدارات المعروفة';
 $s['chooseBuild'] = 'اختر الإصدار';
 $s['weFoundBuilds'] = 'عدد الإصدارات: <b>%d</b>'; //<b>692</b> builds were found for your query.
 $s['sortByDate'] = 'ترتيب النتائج حسب تاريخ الإضافة';
-$s['nextPage'] = 'التالية';
-$s['prevPage'] = 'السابقة';
-$s['pageOf'] = '%d - %d الصفحة رقم'; //Page 1 of 48
 
 //fetchupd.php
-$s['responseFromServer'] = 'رد السيرفر';
 $s['foundUpdates'] = 'عدد التحديثات: %d'; //Found 1 update(s)
 $s['foundTheseUpdates'] = 'تم إيجاد التحديثات التالية، اضغط على اسم أي منها للمتابعة';
 $s['buildNumber'] = 'رقم الإصدار: %s'; //Build number: 18890.1000
@@ -119,12 +101,7 @@ $s['chooseLangDesc'] = 'اختر اللغة المرغوبة';
 $s['allLangs'] = 'كل اللغات';
 $s['selLangFiles'] = 'الملفات';
 $s['allFiles'] = 'كل الملفات';
-$s['wubOnly'] = 'فقط WindowsUpdateBox';
-$s['updateOnly'] = 'التحديثات فقط';
 $s['selectLangInfoText1'] = 'اضغط زر التالي لاختيار النسخة التي تود تنزيلها';
-$s['selectLangInfoText2'] = 'والتحديثات التراكمية يمكن إيجادها في خيار كل اللغات WindowsUpdateBox.exe';
-$s['allLangsWarn'] = 'خيار كل اللغات لا يوفر اختيار النسخة';
-$s['clickNextToOpenFindFiles'] = 'اضغط زر التالي لفتح صفحة إيجاد الملفات';
 $s['noLangsAvailable'] = 'لا توجد لغات متاحة<br>لا يمكن إنشاء ملف آيزو من هذا الإصدار<br>لمزيد من التفاصيل راجع الأسئلة الشائعة';
 $s['browseFiles'] = 'تصفح الملفات';
 $s['browseFilesDesc'] = 'عرض قائمة الملفات للتحميل يدوياً من الإصدار المحدد';
@@ -210,8 +187,6 @@ $s['sizeOfShownFiles'] = 'حجم الملفات: %s'; //Size of shown files: 2.8
 
 //Error pages
 $s['error'] = 'خطأ';
-$s['requestNotSuccessful'] = 'فشل الطلب';
-$s['anErrorHasOccurred'] = 'حدث خطأ أثناء محاولة معالجة طلبك';
 $s['arm64Warning2023'] = 'مسؤولو الموقع لا يملكون أجهزة متوافقة معه وبالتالي لن يتم توفير أي دعم لمشاكل التثبيت .  <b><a href="https://support.microsoft.com/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a> إصدار خاص بمعالجات</b>';
 
 //Error messages

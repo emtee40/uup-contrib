@@ -26,7 +26,6 @@ $s['edition'] = '版本';
 $s['seachForBuilds'] = '搜索内部版本……';
 $s['no'] = '否';
 $s['yes'] = '是';
-$s['yesRecommended'] = '是（推荐）';
 $s['next'] = '下一步';
 $s['ok'] = '确定';
 $s['cancel'] = '取消';
@@ -43,14 +42,10 @@ $s['unknown'] = '未知';
 //global
 $s['home'] = '首页';
 $s['downloads'] = '下载';
-$s['lightMode'] = '浅色模式';
 $s['faq'] = '常见问题';
-$s['darkMode'] = '深色模式';
 $s['sourceCode'] = '源代码';
 $s['menu'] = '菜单';
-$s['websiteDesc'] = '你可以轻松地从 Windows 更新服务器下载 UUP 文件。此项目不隶属于 Microsoft Corporation。';
 $s['notAffiliated'] = '此项目与 Microsoft Corporation 无关。Windows 是 Microsoft Corporation 的注册商标。';
-$s['copyright'] = '© %d %s 和贡献者们。'; //© 2019 whatever127 and contributors.
 $s['copyrightNew'] = '© %d UUP dump 作者和贡献者们。';
 $s['selectLanguage'] = '请选择你的语言';
 $s['uupDumpDesc'] = 'UUP dump 允许你直接从 Windows 更新下载统一更新平台（Unified Update Platform）的文件，例如 Windows 预览体验计划更新。';
@@ -76,11 +71,6 @@ $s['latestBetaRelease'] = '最新 Beta 通道版本';
 $s['latestBetaReleaseSub'] = '具有最新可用功能的内部版本，运行较为可靠。<br>适合早期采用者。';
 $s['latestRPRelease'] = '最新发布预览通道版本';
 $s['latestRPReleaseSub'] = '预览下一个发行版本，可靠性更好。<br>是试用即将发布版本的理想选择。';
-$s['advOptions'] = '高级选项';
-$s['browseBuilds'] = '浏览已知内部版本列表';
-$s['browseBuildsSub'] = '从本地数据库中选择已知的内部版本并下载。';
-$s['fetchLatest'] = '获取最新内部版本';
-$s['fetchLatestSub'] = '从 Windows 更新服务器检索最新的内部版本信息。';
 $s['newlyAdded'] = '新增内部版本';
 $s['dateAdded'] = '添加日期';
 $s['latestCanaryRelease'] = '最新 Canary 渠道版本';
@@ -88,12 +78,8 @@ $s['latestCanaryReleaseSub'] = '具有最新平台更改和早期功能的内部
 $s['checkOutAddANewBuild'] = '没有找到所需的选项？请查看<i><a href="newbuild.php">添加新内部版本</a></i>页面。';
 
 //newbuild.php
-$s['newBuild'] = '新增内部版本';
 $s['addNewBuild'] = '添加新内部版本';
-$s['selectOptions'] = '选择选项';
 $s['newBuildNextText'] = '单击<i>下一步</i>按钮开始搜索指定的选项。';
-$s['newBuildUsing'] = '使用此页面';
-$s['newBuildUsingText'] = '此页面旨在供希望添加在网站上找不到的版本的高级用户使用。如果你想使用最常用的参数之一，请使用主页上的<i>快速选项</i>之一。';
 $s['optionsNotice'] = '选项注意';
 $s['optionsNoticeText'] = '此处找到的选项是配置基础 Windows 更新客户端向 Microsoft 服务器报告自身的方式。正确设置这些内容至关重要，否则你将会遇到错误。';
 
@@ -102,12 +88,8 @@ $s['browseKnown'] = '浏览已知内部版本';
 $s['chooseBuild'] = '选择内部版本';
 $s['weFoundBuilds'] = '根据你的查询，我们找到了 <b>%d</b> 个内部版本。'; //<b>692</b> builds were found for your query.
 $s['sortByDate'] = '按添加日期排序结果';
-$s['nextPage'] = '下一页';
-$s['prevPage'] = '上一页';
-$s['pageOf'] = '第 %d 页，共 %d 页'; //Page 1 of 48
 
 //fetchupd.php
-$s['responseFromServer'] = '来自服务器的响应';
 $s['foundUpdates'] = '已找到 %d 个更新'; //Found 1 update(s)
 $s['foundTheseUpdates'] = '找到了以下更新，单击所需更新的名称以继续。';
 $s['buildNumber'] = '内部版本号：%s'; //Build number: 18890.1000
@@ -119,12 +101,7 @@ $s['chooseLangDesc'] = '选择你想要的语言';
 $s['allLangs'] = '全部语言';
 $s['selLangFiles'] = '文件';
 $s['allFiles'] = '全部文件';
-$s['wubOnly'] = '仅限 WindowsUpdateBox';
-$s['updateOnly'] = '仅更新';
 $s['selectLangInfoText1'] = '单击<i>下一步</i>按钮选择你要下载的版本。';
-$s['selectLangInfoText2'] = 'WindowsUpdateBox.exe 和累积更新可以在<i>全语言</i>中找到。';
-$s['allLangsWarn'] = '<i>全语言</i>选项不支持版本选择。';
-$s['clickNextToOpenFindFiles'] = '单击<i>下一步</i>按钮打开页面，该页面将允许你查找文件。';
 $s['noLangsAvailable'] = '在此内部版本中没有可用的语言。';
 $s['browseFiles'] = '浏览文件';
 $s['browseFilesDesc'] = '快速浏览所选内部版本中的文件';
@@ -210,8 +187,6 @@ $s['sizeOfShownFiles'] = '显示文件大小：%s'; //Size of shown files: 2.86 
 
 //Error pages
 $s['error'] = '错误';
-$s['requestNotSuccessful'] = '请求未成功';
-$s['anErrorHasOccurred'] = '在尝试处理你的请求时发生错误。';
 $s['arm64Warning2023'] = '<b>这是一个 <a href="https://support.microsoft.com/zh-cn/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a> 内部版本。</b>UUP dump 的作者们没有与之兼容的单一设备，因此<b>绝对不会提供任何的支持</b>。';
 
 //Error messages

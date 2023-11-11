@@ -26,7 +26,6 @@ $s['edition'] = 'Edycja';
 $s['seachForBuilds'] = 'Szukaj kompilacji...';
 $s['no'] = 'Nie';
 $s['yes'] = 'Tak';
-$s['yesRecommended'] = 'Tak (zalecane)';
 $s['next'] = 'Dalej';
 $s['ok'] = 'OK';
 $s['cancel'] = 'Anuluj';
@@ -44,13 +43,9 @@ $s['unknown'] = 'Brak danych';
 $s['home'] = 'Strona główna';
 $s['downloads'] = 'Pobrania';
 $s['faq'] = 'Często zadawane pytania';
-$s['lightMode'] = 'Tryb jasny';
-$s['darkMode'] = 'Tryb ciemny';
 $s['sourceCode'] = 'Kod źródłowy';
 $s['menu'] = 'Menu';
-$s['websiteDesc'] = 'Pobieraj pliki UUP z serwerów Windows Update z łatwością. Ten projekt nie jest powiązany z Microsoft Corporation.';
 $s['notAffiliated'] = 'Ten projekt nie jest powiązany z Microsoft Corporation. Windows jest zarejestrowanym znakiem towarowym firmy Microsoft Corporation.';
-$s['copyright'] = '© %d %s i współtwórcy.'; //© 2019 whatever127 and contributors.
 $s['copyrightNew'] = '© %d Autorzy oraz współtwórcy UUP dump.';
 $s['selectLanguage'] = 'Proszę wybrać swój język';
 $s['uupDumpDesc'] = 'UUP dump umożliwia Ci pobieranie plików Unified Update Platform, takich jak aktualizacje programu Windows Insider, bezpośrednio z usługi Windows Update.';
@@ -76,11 +71,6 @@ $s['latestBetaRelease'] = 'Najnowsza kompilacja kanału beta';
 $s['latestBetaReleaseSub'] = 'Pewne kompilacje z większością nowych funkcji.<br>Idealne dla wczesnych adaptacji.';
 $s['latestRPRelease'] = 'Najnowsza kompilacja zapoznawcza';
 $s['latestRPReleaseSub'] = 'Pewne kompilacje z podglądami następnego wydania.<br>Idealne do spróbowania nadchodzących wydań.';
-$s['advOptions'] = 'Opcje zaawansowane';
-$s['browseBuilds'] = 'Przeglądaj listę znanych kompilacji';
-$s['browseBuildsSub'] = 'Wybierz kompilację znajdującą się w lokalnej bazie danych i pobierz ją.';
-$s['fetchLatest'] = 'Znajdź najnowszą kompilację';
-$s['fetchLatestSub'] = 'Uzyskaj informacje o najnowszej kompilacji z serwerów Windows Update.';
 $s['newlyAdded'] = 'Nowo dodane kompilacje';
 $s['dateAdded'] = 'Data dodania';
 $s['latestCanaryRelease'] = 'Najnowsza kompilacja kanału Canary';
@@ -88,12 +78,8 @@ $s['latestCanaryReleaseSub'] = 'Poniekąd niestabilne kompilacje z najnowszymi z
 $s['checkOutAddANewBuild'] = 'Brakuje interesującej Cię opcji? Sprawdź stronę <i><a href="newbuild.php">Dodaj nową kompilację</a></i>.';
 
 //newbuild.php
-$s['newBuild'] = 'Nowa kompilacja';
 $s['addNewBuild'] = 'Dodaj nową kompilację';
-$s['selectOptions'] = 'Wybierz opcje';
 $s['newBuildNextText'] = 'Kliknij przycisk <i>Dalej</i>, aby rozpocząć wyszukiwanie przy użyciu wybranych opcji.';
-$s['newBuildUsing'] = 'Użytkowanie tej strony';
-$s['newBuildUsingText'] = 'Strona ta jest przeznaczona do użytku przez zaawansowanych użytkowników, którzy chcą dodać kompilację, która nie jest dostępna na stronie. W przypadku gdy chcesz użyć jednej z najczęściej użytkowanych opcji, skorzystaj z jednej z <i>Szybkich opcji</i> dostępnych na stronie głównej.';
 $s['optionsNotice'] = 'Uwaga dotycząca opcji';
 $s['optionsNoticeText'] = 'Opcje dostępne tutaj konfigurują sposób w jaki klient usługi Windows Update raportuje się serwerom firmy Microsoft. Ważne jest, aby ustawić je prawidłowo, w przeciwnym wypadku otrzymany zostanie błąd.';
 
@@ -102,12 +88,8 @@ $s['browseKnown'] = 'Przeglądaj znane kompilacje';
 $s['chooseBuild'] = 'Wybierz kompilację';
 $s['weFoundBuilds'] = 'Znaleziono <b>%d</b> kompilacji dla Twojego zapytania.'; //<b>692</b> builds were found for your query.
 $s['sortByDate'] = 'Sortuj wyniki po dacie dodania';
-$s['nextPage'] = 'Następna';
-$s['prevPage'] = 'Poprzednia';
-$s['pageOf'] = 'Strona %d z %d'; //Page 1 of 48
 
 //fetchupd.php
-$s['responseFromServer'] = 'Odpowiedź serwera';
 $s['foundUpdates'] = 'Odnaleziono aktualizacji: %d'; //Found 1 update(s)
 $s['foundTheseUpdates'] = 'Odnaleziono następujące aktualizacje. Kliknij nazwę aktualizacji aby kontynuować.';
 $s['buildNumber'] = 'Numer kompilacji: %s'; //Build number: 18890.1000
@@ -119,12 +101,7 @@ $s['chooseLangDesc'] = 'Wybierz żądany język';
 $s['allLangs'] = 'Wszystkie języki';
 $s['selLangFiles'] = 'Pliki';
 $s['allFiles'] = 'Wszystkie pliki';
-$s['wubOnly'] = 'Tylko WindowsUpdateBox';
-$s['updateOnly'] = 'Tylko aktualizacje';
 $s['selectLangInfoText1'] = 'Kliknij przycisk <i>Dalej</i> w celu przejścia do strony wyboru edycji.';
-$s['selectLangInfoText2'] = 'WindowsUpdateBox.exe i aktualizacje kumulacyjne mogą zostać znalezione w opcji języka <i>Wszystkie języki</i>.';
-$s['allLangsWarn'] = 'Opcja <i>Wszystkie języki</i> nie obsługuje wyboru edycji.';
-$s['clickNextToOpenFindFiles'] = 'Kliknij przycisk <i>Dalej</i> aby otworzyć stronę umożliwiającą wyszukiwanie plików.';
 $s['noLangsAvailable'] = 'Dla tej kompilacji nie ma dostępnych żadnych języków.<br>Ta kompilacja nie może zostać przekonwertowana na obraz ISO.<br>Odwiedź często zadawane pytania w celu uzyskania szczegółów.';
 $s['browseFiles'] = 'Przeglądaj pliki';
 $s['browseFilesDesc'] = 'Szybko przejrzyj pliki w wybranej kompilacji';
@@ -210,8 +187,6 @@ $s['sizeOfShownFiles'] = 'Rozmiar widocznych plików: %s'; //Size of shown files
 
 //Error pages
 $s['error'] = 'Błąd';
-$s['requestNotSuccessful'] = 'Żądanie nie powiodło się';
-$s['anErrorHasOccurred'] = 'Wystąpił błąd podczas próby przetworzenia Twojego żądania.';
 $s['arm64Warning2023'] = '<b>To jest kompilacja <a href="https://support.microsoft.com/pl-pl/windows/477f51df-2e3b-f68f-31b0-06f5e4f8ebb5">ARM64</a>.</b> Autorzy UUP dump nie posiadają żadnego urządzenia kompatybilnego z nią, w związku z czym <b>nie będą prowadzić jakiejkolwiek formy wsparcia</b>.';
 
 //Error messages
