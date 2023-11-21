@@ -444,6 +444,7 @@ $downloadapp
 echo Retrieving aria2 script for the UUP set...
 "%aria2%" --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -o"%aria2Script%" --allow-overwrite=true --auto-file-renaming=false "$url"
 if %ERRORLEVEL% GTR 0 call :DOWNLOAD_ERROR & exit /b 1
+echo.
 
 for /F "tokens=2 delims=:" %%i in ('findstr #UUPDUMP_ERROR: "%aria2Script%"') do set DETECTED_ERROR=%%i
 if NOT [%DETECTED_ERROR%] == [] (
