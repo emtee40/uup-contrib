@@ -124,11 +124,12 @@ if %ERRORLEVEL% GTR 0 call :DOWNLOAD_CONVERTER_ERROR & exit /b 1
 echo.
 
 if NOT EXIST ConvertConfig.ini goto :NO_FILE_ERROR
+if NOT EXIST CustomAppsList.txt goto :NO_FILE_ERROR
 if NOT EXIST %a7z% goto :NO_FILE_ERROR
 if NOT EXIST %uupConv% goto :NO_FILE_ERROR
 
 echo Extracting UUP converter...
-"%a7z%" -x!ConvertConfig.ini -y x "%uupConv%" >NUL
+"%a7z%" -x!ConvertConfig.ini -x!CustomAppsList.txt -y x "%uupConv%" >NUL
 echo.
 $downloadapp
 :DOWNLOAD_UUPS
@@ -343,6 +344,7 @@ CONFIG;
     $zip->addFile($currDir.'/misc/autodl_files/converter_multi', 'files/converter_multi');
     $zip->addFile($currDir.'/misc/autodl_files/converter_windows', 'files/converter_windows');
     $zip->addFile($currDir.'/misc/autodl_files/get_aria2.ps1', 'files/get_aria2.ps1');
+    $zip->addFile($currDir.'/misc/autodl_files/CustomAppsList.txt', 'CustomAppsList.txt');
     $zip->close();
 
     if($virtualEditions) {
