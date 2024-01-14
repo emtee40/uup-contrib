@@ -1,5 +1,5 @@
 <?php
-// Copyright (C) 2023 UUP dump authors. All rights reserved.
+// Copyright (C) 2024 UUP dump authors. All rights reserved.
 
 /* 
 * Changing anything in this file is a really painful experience.
@@ -222,7 +222,7 @@ destDir="UUPs"
 tempScript="aria2_script.\$RANDOM.txt"
 
 echo "Downloading converters..."
-aria2c --no-conf --async-dns=false --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j2 --allow-overwrite=true --auto-file-renaming=false -d"files" -i"files/converter_multi"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j2 --allow-overwrite=true --auto-file-renaming=false -d"files" -i"files/converter_multi"
 if [ $? != 0 ]; then
   echo "We have encountered an error while downloading files."
   exit 1
@@ -230,7 +230,7 @@ fi
 
 echo ""
 echo "Retrieving aria2 script for the UUP set..."
-aria2c --no-conf --async-dns=false --console-log-level=warn --log-level=info --log="aria2_download.log" -o"\$tempScript" --allow-overwrite=true --auto-file-renaming=false "$url"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -o"\$tempScript" --allow-overwrite=true --auto-file-renaming=false "$url"
 if [ $? != 0 ]; then
   echo "Failed to retrieve aria2 script"
   exit 1
@@ -245,7 +245,7 @@ fi
 
 echo ""
 echo "Downloading the UUP set..."
-aria2c --no-conf --async-dns=false --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j5 -c -R -d"\$destDir" -i"\$tempScript"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j5 -c -R -d"\$destDir" -i"\$tempScript"
 if [ $? != 0 ]; then
   echo "We have encountered an error while downloading files."
   exit 1
@@ -373,7 +373,7 @@ function createAria2Package($url, $archiveName, $app = null) {
 TEXT;
 
     $ariabash = <<<TEXT
-aria2c --no-conf --async-dns=false --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j5 -c -R -d"\$destDir" -i"\$tempScript"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j5 -c -R -d"\$destDir" -i"\$tempScript"
 TEXT;
 
     if(strpos($archiveName, "_app")) {
@@ -382,7 +382,7 @@ TEXT;
 TEXT;
 
         $ariabash = <<<TEXT
-aria2c --no-conf --async-dns=false --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j25 -c -R -d"\$destDir" -i"\$tempScript"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -x16 -s16 -j25 -c -R -d"\$destDir" -i"\$tempScript"
 TEXT;
     }
 
@@ -505,7 +505,7 @@ destDir="UUPs"
 tempScript="aria2_script.\$RANDOM.txt"
 
 echo "Retrieving aria2 script for the UUP set..."
-aria2c --no-conf --async-dns=false --console-log-level=warn --log-level=info --log="aria2_download.log" -o"\$tempScript" --allow-overwrite=true --auto-file-renaming=false "$url"
+aria2c --no-conf --console-log-level=warn --log-level=info --log="aria2_download.log" -o"\$tempScript" --allow-overwrite=true --auto-file-renaming=false "$url"
 if [ $? != 0 ]; then
   echo "Failed to retrieve aria2 script"
   exit 1
